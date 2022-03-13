@@ -1,0 +1,39 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: teal;
+    color: goldenrod;
+}
+
+#container{
+display:flex; 
+flex-direction: column; 
+position: fixed;
+justify-content: center;
+}
+#header{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#arrows{
+display: flex;
+justify-content: center;
+}
+
+.arrow{width:48px;
+height:48px;
+margin:10px;}
+
+#coin, #player{
+    width:100px;
+    position: relative;
+    top: 100px;
+    left: 100px
+}
+
+#player{
+    width:150px;
+}
+
